@@ -1,0 +1,167 @@
+ @media screen and (max-width: 767px) {
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow-x: hidden;
+}
+.sign{
+	width: 70px;
+	height: 70px;
+	background: #e49;
+}
+
+.cl{
+	background: url("../image/X.png") no-repeat center top;
+	display: inline-block;
+	float: right;
+	margin-top: 3px;
+	margin-right: 50px;
+	z-index: 0;
+	width: 36px;
+	height: 36px;
+
+}
+.cl:hover{
+	z-index: 10;
+	background: #ffa800 url("../image/X.png") no-repeat center top;
+
+}
+.orderbox-container{
+	display: none;
+	position: fixed;
+	/*top: 10px;
+	left: 50%;
+	margin-top: 50px;
+	margin-left: -400px;*/
+	min-width: 400px;
+	min-height: 700px;
+/*	border:2px solid pink;*/
+	text-align: center;
+	z-index: 1;
+}
+#roomname-order{
+	color:#fff;
+	font-size: 20px;
+	margin:0px auto;
+	margin-left: 50px;
+	padding:10px; 
+	text-shadow: 0 0 5px #000, 0 0 7px #000, 0 0 8px #999, 0 0 12px #888;
+}
+.orderbox{
+	background: #fff no-repeat center top;
+	width: 350px;
+	height: 600px;
+	border:1px solid #000;
+	margin-left: 0px;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+}
+#memName{
+	padding-top: 0px;
+	font-size: 25px;
+	color:#000;
+}
+
+.topinfo{
+	display: inline-block;
+	float: left;
+/*	border:1px solid #638;*/
+	width: 350px;
+	margin: 0 auto;
+	margin-left: 0px;
+	font-size: 17px;
+	text-align: center;
+}
+.bottominfo{
+	display: inline-block;
+	float: left;
+	text-align: center;
+/*	border:1px solid #638;*/
+	width: 350px;
+	margin: 0 auto;
+	font-size: 17px;
+	margin-right: 0px;
+}
+.topinfo input,.bottominfo input{
+	width: 140px;
+	height: 20px;
+	text-align: center;
+
+}
+
+.topinfo ul li{
+	display: inline-block;
+	width:250px;
+/*	border:1px solid #768;*/
+	text-align: right;
+	padding-top: 5px; 
+	padding-right: 50px; 
+}
+.circle1{
+	display: inline-block;
+	float: left;
+	background: url("../image/sing02.png") no-repeat center center;
+/*	background-size: 200px 400px;*/
+	width: 300px;
+	height: 50px;
+/*	border: 1px solid #232;*/
+	margin-left: 22px;
+
+}
+.bottominfo ul{
+	margin-top: 10px;
+}
+.bottominfo ul li{
+	display: inline-block;
+	width:250px;
+/*	border:1px solid #768;*/
+	text-align: right;
+	padding-top: 0px; 
+	padding-right: 50px; 
+}
+.topinfo ul:nth-child(1), .bottominfo ul:nth-child(1){
+	margin-right: 50px;
+}
+.topinfo ul:nth-child(2){
+	text-align: center;
+}
+.topinfo ul:nth-child(2) li:nth-child(2) span{
+	margin-right: 5px;
+}
+.topinfo ul:nth-child(2) li:nth-child(1) span:nth-child(1){
+	margin-left: 8px;
+}
+.topinfo ul:nth-child(2) li:nth-child(3) span{
+	margin-left: 8px;
+}
+.bottominfo ul:nth-child(1) li:nth-child(4){
+	text-align: center;
+	font-size: 10px;
+	margin:0 0 0 60px;
+}
+.bottominfo ul:nth-child(2){
+	vertical-align: top;
+}
+#Forgotpassword{
+	color: #000;
+}
+#laststep{
+	width: 50px;
+	height: 25px;
+	background:#fff;
+	color: #000;
+	border: 1px solid #000;
+}
+#submit{
+	margin-left: 20px;
+	width: 50px;
+	height: 25px;
+	background:#000;
+	color: #fff; 
+	border: 0px ;
+}
+}
+
+
+

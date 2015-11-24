@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/Member_back.css">
+	<title>會員管理</title>
+</head>
+<body>
+<div class="container">
+	<div class="menu">
+		<div class="logo">
+			<img src="images/LOGO-gray.png" >
+		</div>
+		<ul class="menuText">
+			<li> <a href="AdManager_back.html"><img src="images/tr.png">廣告管理</a> </li>
+			<li> <a href="exhibition_back.html"><img src="images/tr.png">展覽管理</a></li>
+			<li> <a href="site_back.html"><img src="images/tr.png">場地管理</a></li>
+			<li> <a href="Order_back.html"><img src="images/tr.png">訂單管理</a></li>
+			<li> <a href="Assess_back.html"><img src="images/tr.png">評價管理</a></li>
+			<li> <a href="Member_back.html"><img src="images/tr.png">會員管理</a></li>
+			<li> <a href="Date_back.html"><img src="images/tr.png">日期管理</a></li>
+			<li> <a href=""><img src="images/tr.png">登出</a></li>
+		</ul>
+	</div>
+
+	
+
+	<div class="list">
+		<div class="ad">會員管理</div>
+			<table class="top">
+				<tr class="title">
+					<td>照片名稱</td>
+					<td>照片路徑</td>
+					<td>放入banner</td>
+				</tr>
+
+				<tr class="content">
+					<td>A1001</td>
+					<td>images/A1001-1.jpg</td>
+					<td>
+							是<input type=radio name="pic" value="1">
+							否<input type=radio name="pic" value="0"></td>
+				</tr>
+
+				<tr class="content">
+					<td>A1002</td>
+					<td></td>
+					<td></td>
+				</tr>
+
+				<tr class="content">
+					<td>A1003</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+
+
+
+			<table class="second">
+				<tr class="title">
+					<td>照片名稱</td>
+					<td>上傳照片</td>
+				</tr>
+
+				<tr class="content">
+					<td> <input type="text"> </td>
+					<td > <input multiple="multiple" type="file"
+					id="Browse" /></td>
+				</tr>
+			</table>
+			<button id="submit" onclick="">送出修改</button>
+
+	</div>
+	<div style="clear:both"></div>
+
+</div>	
+
+</body>
+</html>

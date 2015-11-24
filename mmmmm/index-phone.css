@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px){
+	.content{
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+	.box{
+		position: relative;
+		width: 90%;
+		margin: 15px auto;
+		height: 50px;
+		line-height: 50px;
+		background: #000;
+		color:#fff;
+		text-align: center;
+		font-size: 18px;
+	}
+}
