@@ -1,0 +1,54 @@
+body{
+	background: url("../images/2.jpg") no-repeat center center fixed;
+}
+.signback{
+	width: 500px;
+	height: 250px;
+	margin: 0 auto;
+	position: absolute;
+	top:30%;
+	left: 30%;
+	text-align: center;
+	background-color:#fff ;
+	box-shadow:0px 0px 0px 18px rgba(0,0,0,0.3);
+}
+.all{
+/*	border: 1px solid #098;*/
+	margin-top: 35px;
+	width: 500px;
+	height: 200px;
+
+
+}
+.signback li{
+/*	border: 1px solid #847;*/
+	margin: 0px auto;
+	padding-top:20px; 
+	text-align: center;
+}
+.signback span{
+	font-size: 18px;
+	margin-right: 2px; 
+}
+#accountback,#passwordback{
+	width: 150px;
+	height: 25px;
+}
+#cancel01{
+	font-size: 13px;
+	width: 70px;
+	height: 30px;
+	background:#fff;
+	color: #000;
+	border: 1px solid #000;
+}
+#registered{
+	font-size: 13px;
+	margin-left: 55px;
+	width: 50px;
+	height: 30px;
+	background:#000;
+	color: #fff; 
+	border: 0px ;
+}
+

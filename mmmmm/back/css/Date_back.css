@@ -1,0 +1,26 @@
+.btnContainer{
+	width: 625px;
+	height: 125px;
+	/*outline: 2px solid #f00;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.siteBtn{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background-color: #fff;
+	line-height: 50px;
+	font-size: 24px;
+	color: #1b1b1b;
+	outline: 1px solid #aaa;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.siteBtn:hover{
+	color:#ff9100;
+}

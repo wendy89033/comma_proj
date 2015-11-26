@@ -1,0 +1,9 @@
+.searchBar{
+	width: 100%;
+	outline: 1px solid #f00;
+	text-align: center;
+}
+.searchBar ul li{
+	display: inline-block;
+	margin-left: 30px;
+}
